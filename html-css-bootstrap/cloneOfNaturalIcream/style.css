@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: gray;
+    height: 60px;
+}
+div.navbar{
+    width: 50%;
+    height: 60px;
+    margin: 0 auto;
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;
+}
+.navList{
+
+}
+.navItem{
+    color:white;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 400;
+}
+.navItem:hover{
+    color:green
+}
+header{
+    width: 100%;
+    height: 450px;
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+.franchiesSection{
+    width: 70%;
+    margin: 10px auto;
+    height: 300px;
+}
+.franchiesSection img{
+    width: 100%;
+    height: 100%;
+}
+#Ingredient_story1{
+    height: 700px;
+}
+.INGREDIENT_STORY h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.INGREDIENT_STORY_IMG{
+    height: 200px;
+    background-image: url('./assets/wave1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover
+}
+.rowIngStory{
+    text-align: center;
+}
+.col{
+    /* background-color:   aquamarine; */
+    width: 250px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.col h2{
+    margin: 16px;
+}
+.col p{
+    line-height: 1.5;
+    color: gray;
+}
+.iconIngStory{
+ border: 2px solid #17b117;
+    border-radius: 50%;
+    width: 50px;
+    margin: 5px auto;
+}
+.iconIngStory i{
+    font-size: 30px;
+    padding: 10px;
+    color: #17b117;
+}
+.col:hover .iconIngStory{
+    width: 30px;
+}
+.col:hover .iconIngStory i{
+    font-size: 15px;
+}
