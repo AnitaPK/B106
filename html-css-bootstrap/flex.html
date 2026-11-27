@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1{
+            background-color: rgb(15, 36, 62);
+            height: 400px;
+            display: flex;
+            /* flex-direction: column-reverse; */
+            /* gap: 20px; */
+            /* justify-content:space-evenly; */
+            /* align-items:end; */
+            /* flex-wrap: wrap; */
+            
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 180, 180);
+        }
+        .One{
+            order: 1;
+        }
+        .Two{order: 2;}
+        .Three{order: 3;}
+        .fourth{
+            /* width:80% */
+            order: 4;
+        }
+        @media screen and (max-width:600px){
+            body{
+                /* background-color: red; */
+            }
+            .One{
+            order: 1;
+        }
+        .Two{order: 3;}
+        .Three{order: 4;}
+        .fourth{
+            /* width:80% */
+            order: 2;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="box One">1</div>
+        <div class="box Two">2</div>
+        <div class="box Three">3</div>
+        <div class="box fourth">4</div>
+
+    </div>
+</body>
+</html>
